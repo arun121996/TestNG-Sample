@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="org.sampletestng.SampleAdactinLogin">
+        <methods>
+          <include name="endswith"/>
+          <include name="startscenario"/>
+          <include name="startswith"/>
+          <include name="endscenario"/>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- org.sampletestng.SampleAdactinLogin -->
+      <class name="org.sampletestng.SampleFbLogin">
+        <methods>
+          <include name="endswith"/>
+          <include name="startscenario"/>
+          <include name="endscenario"/>
+          <include name="tc11"/>
+          <include name="tc22"/>
+          <include name="tc33"/>
+          <include name="startswith"/>
+        </methods>
+      </class> <!-- org.sampletestng.SampleFbLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
